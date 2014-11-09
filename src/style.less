@@ -1,0 +1,26 @@
+@sources_path : "user_sources";
+
+@import "less/bootstrap.less";
+
+//common variables and bootstrap variables
+//---------------------------------------------------------------------
+@import "@{sources_path}/variables";
+
+
+//including useful custom functions
+@import "@{sources_path}/functions";
+
+
+//fonts
+//---------------------------------------------------------------------
+@import "@{sources_path}/fonts";
+
+
+//including common styles first for all resolutions
+//---------------------------------------------------------------------
+@import "@{sources_path}/common";
+
+
+//including responsive styles for different resolutions
+//---------------------------------------------------------------------
+@import "@{sources_path}/responsive";
